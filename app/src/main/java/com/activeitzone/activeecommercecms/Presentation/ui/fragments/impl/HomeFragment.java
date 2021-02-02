@@ -129,9 +129,9 @@ public class HomeFragment extends Fragment implements HomeView, CategoryClickLis
         homePresenter.getTodaysDeal();
         homePresenter.getFlashDeal();
         homePresenter.getBestSelling();
-        homePresenter.getFeaturedProducts();
+//        homePresenter.getFeaturedProducts();
         homePresenter.getPopularbrands();
-        homePresenter.getAuctionProducts();
+//        homePresenter.getAuctionProducts();
     }
 
     @Override
