@@ -10,11 +10,11 @@ public class AppConfig {
     public static AppSettings appSettings;
 
 //    public static String BASE_URL = "http://demo.activeitzone.com/ecommerce/api/v1/";
-//    public static String BASE_URL = "http://ashop.asrorztg.beget.tech/api/v1/";
-    public static String BASE_URL = "http://178.218.201.180/api/v1/";
+    public static String BASE_URL = "http://ashop.asrorztg.beget.tech/api/v1/";
+//    public static String BASE_URL = "http://178.218.201.180/api/v1/";
 //    public static String ASSET_URL = "http://demo.activeitzone.com/ecommerce/public/";
-    public static String ASSET_URL = "http://178.218.201.180/";
-//    public static String ASSET_URL = "http://ashop.asrorztg.beget.tech/";
+//    public static String ASSET_URL = "http://178.218.201.180/";
+    public static String ASSET_URL = "http://ashop.asrorztg.beget.tech/";
 
 //    public static String BASE_URL = "http://192.168.1.114/shop/api/v1/";
 //    public static String ASSET_URL = "http://192.168.1.114/shop/public/";
