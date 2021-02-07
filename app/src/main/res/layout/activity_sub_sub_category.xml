@@ -5,6 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".Presentation.ui.activities.impl.SubSubCategoryActivity">
 
+    <TextView
+        android:id="@+id/txtxerror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ma_lumot_joylanmagan"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/subcategory_list"
         android:layout_width="match_parent"

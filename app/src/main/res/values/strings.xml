@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Active Ecommerce</string>
+    <string name="app_name">Team Shop</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -13,4 +13,5 @@
     <string name="fb_login_protocol_scheme">fb201826287505269</string>
 
     <string name="server_client_id">364205543335-cr273fmgdc9n2uqfkrlb6075uid84eht.apps.googleusercontent.com</string>
+    <string name="ma_lumot_joylanmagan">Ma\'lumot joylanmagan</string>
 </resources>

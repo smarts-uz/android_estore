@@ -1,9 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    lintOptions {
+        checkReleaseBuilds false
+    }
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.activeitzone.activeecommercecms"
+        applicationId "com.activeitzone.teamshopcms"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 2
@@ -38,6 +41,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'commons-validator:commons-validator:1.6'
 
     //Third Party Library
     implementation 'com.quinny898.library.persistentsearch:library:1.1.0-SNAPSHOT'
